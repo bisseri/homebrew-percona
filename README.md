@@ -3,7 +3,7 @@ Homebrew/Linuxbrew formulas
 
 ### Add new tap
 ```
-brew tap bisser/percona
+brew tap bisseri/percona
 ```
 
 ### Install Percona Server 5.6
