@@ -5,6 +5,10 @@ class PerconaServerAT57 < Formula
   sha256 "999593afa241660bc7860264b46a826faf97d80d411966fade24084f47b249a0"
 
   bottle do
+    sha256 "3385bd14a3478ecdf0c3fe9b0ccdda8dd0c267c4c6b2675bb4630d28ffbb1742" => :arm64_monterey 
+    sha256 "ad657418a000b368547071aefad3ae66fd106af6f31d16c7876a554f02dd9f06" => :arm64_big_sur
+    sha256 "bd79cea1b6c8ae6d4a661abe297d9801a3147c9a01b295cffb2a3420413221b1" => :monterey
+    sha256 "67bf9cb6aebfbb23659af774c3604a6f5f26faa1884742439d95e30d7b74ab29" => :big_sur      
     sha256 "79938125efb509b03ae247a23198c65fb6684eb49be9336860b5a92b56931b5b" => :mojave
     sha256 "31d1745e94bc82f5fc8d2c677052a323f1dc76fdebe2369a6e23e583e48cc9ad" => :high_sierra
     sha256 "1d6ad1ff891982cee38d7886df5dc99f907a802287a6bddb56c55c552dfcb430" => :sierra
